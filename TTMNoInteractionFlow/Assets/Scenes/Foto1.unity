@@ -502,7 +502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 575649374}
-  - component: {fileID: 575649373}
+  - component: {fileID: 575649375}
   m_Layer: 0
   m_Name: PhotoStorage
   m_TagString: Untagged
@@ -510,22 +510,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &575649373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575649372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7bd070c48d223f438d98cbf54c43f37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  photos:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &575649374
 Transform:
   m_ObjectHideFlags: 0
@@ -541,6 +525,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &575649375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575649372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23080fa0c49de54448f07187024f8809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &952174059
 GameObject:
   m_ObjectHideFlags: 0
