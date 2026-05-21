@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: a99ffd6710db3a8448ac2a240617e611
+timeCreated: 1527520631
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - RegularCursor: {instanceID: 0}
+  - HorizontalCursor: {fileID: 2800000, guid: ffba0bb6361b74e4dbf0e60c7de45636, type: 3}
+  - VerticalCursor: {fileID: 2800000, guid: 083f1be37d1adcb4f9f089d09a381e6d, type: 3}
+  - TopLeftCursor: {fileID: 2800000, guid: 814f34be459d85140b481129fc3d2330, type: 3}
+  - TopRightCursor: {fileID: 2800000, guid: 9d5d2554c47839c48af51f8e2ca5f0a5, type: 3}
+  - BottomLeftCursor: {fileID: 2800000, guid: 9d5d2554c47839c48af51f8e2ca5f0a5, type: 3}
+  - BottomRightCursor: {fileID: 2800000, guid: 814f34be459d85140b481129fc3d2330, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 119444
+  packageName: uResize
+  packageVersion: 1.01
+  assetPath: Assets/UI/uResize/uResize_CursorController.cs
+  uploadId: 333135

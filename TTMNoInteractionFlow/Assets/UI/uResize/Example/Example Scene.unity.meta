@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e214e8b4726f4c45b960f1ab5e7d9cb
+timeCreated: 1526999520
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 119444
+  packageName: uResize
+  packageVersion: 1.01
+  assetPath: Assets/UI/uResize/Example/Example Scene.unity
+  uploadId: 333135

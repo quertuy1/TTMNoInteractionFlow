@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 04c053d7b40d785468d01d5ad9fcf3d5
+timeCreated: 1527169456
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 119444
+  packageName: uResize
+  packageVersion: 1.01
+  assetPath: Assets/UI/uResize/uResize_Vectors.cs
+  uploadId: 333135

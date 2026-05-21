@@ -37,6 +37,12 @@ public class FilterManager : MonoBehaviour
     [Tooltip("Asigna los GameObjects (imágenes) que pertenecen a la época actual")]
     public GameObject[] propsActual;
 
+    [Header("Biblioteca de Sprites por Epoca (UI)")]
+    public Sprite[] sprites50s;
+    public Sprite[] sprites70s;
+    public Sprite[] sprites90s;
+    public Sprite[] spritesActual;
+
     [Header("Configuracion de Audio")]
     [Tooltip("Volumen de los efectos de sonido (0 a 1)")]
     [Range(0f, 1f)]
@@ -90,6 +96,23 @@ public class FilterManager : MonoBehaviour
 
         // Ocultar todos los props al iniciar
         DisableAllProps();
+    }
+
+    public static System.Action<int> OnEraChanged;
+
+    /// <summary>
+    /// Retorna la lista de sprites correspondiente a la epoca indicada.
+    /// </summary>
+    public Sprite[] GetSpritesForEra(int index)
+    {
+        return index switch
+        {
+            0 => sprites50s,
+            1 => sprites70s,
+            2 => sprites90s,
+            3 => spritesActual,
+            _ => null
+        };
     }
 
     private void AutoAssignProps()
@@ -157,6 +180,9 @@ public class FilterManager : MonoBehaviour
 
         // Reproducir sonido tematico de la epoca (breve y a volumen bajo)
         PlayEraSound(index);
+
+        // Notificar a quien quiera reaccionar al cambio de epoca (ej: cargador de accesorios)
+        OnEraChanged?.Invoke(index);
 
         Debug.Log($"Filtro cambiado a: {eraNames[index]}");
     }

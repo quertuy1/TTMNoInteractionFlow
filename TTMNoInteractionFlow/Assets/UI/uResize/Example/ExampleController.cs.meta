@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f54fe1c19e1a6f247b446e81c2fe3980
+timeCreated: 1527595339
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 119444
+  packageName: uResize
+  packageVersion: 1.01
+  assetPath: Assets/UI/uResize/Example/ExampleController.cs
+  uploadId: 333135

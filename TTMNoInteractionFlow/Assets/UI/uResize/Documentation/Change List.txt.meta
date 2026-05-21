@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: feb86953cb6342842b80d5f29ee4d1eb
+timeCreated: 1527171263
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 119444
+  packageName: uResize
+  packageVersion: 1.01
+  assetPath: Assets/UI/uResize/Documentation/Change List.txt
+  uploadId: 333135

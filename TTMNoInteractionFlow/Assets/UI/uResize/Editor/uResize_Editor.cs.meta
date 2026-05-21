@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: dbae28d46c2ea0c46b35273d67d67aab
+timeCreated: 1527596169
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 119444
+  packageName: uResize
+  packageVersion: 1.01
+  assetPath: Assets/UI/uResize/Editor/uResize_Editor.cs
+  uploadId: 333135

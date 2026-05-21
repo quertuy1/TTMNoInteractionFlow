@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f300015bb57a7a84cbf985f3658a56fc
+timeCreated: 1527600160
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 119444
+  packageName: uResize
+  packageVersion: 1.01
+  assetPath: Assets/UI/uResize/Documentation/User Guide v1.00.pdf
+  uploadId: 333135

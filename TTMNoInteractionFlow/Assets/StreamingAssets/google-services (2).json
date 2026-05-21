@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "735634825697",
+    "project_id": "ttm-interactivo-taller-7",
+    "storage_bucket": "ttm-interactivo-taller-7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735634825697:android:17588b04019fa66cea32a0",
+        "android_client_info": {
+          "package_name": "com.QWERTY.TTMinteraccion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLkVG8M6S5P1bBy9stCMCXhglD7Fc3rg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

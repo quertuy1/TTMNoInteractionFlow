@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b2743bb0246ee484884546e549a7cb03
+timeCreated: 1527166584
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 119444
+  packageName: uResize
+  packageVersion: 1.01
+  assetPath: Assets/UI/uResize/uResize_ListenerEdges.cs
+  uploadId: 333135
